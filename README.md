@@ -16,7 +16,7 @@ The HTTPie command includes intuitive UI, JSON support, syntax highlighting, wge
 Note: requires `docker login`
 
 ## Run image
-`$ docker run -it --rm macabees/httpie`
+`$ docker run -it --rm macabees/httpie -v PUT httpbin.org/put API-Key:foo hello=world`
 
 ## Help
 `$ docker run -it --rm macabees/httpie --help`
